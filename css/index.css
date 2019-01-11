@@ -255,3 +255,32 @@ section.about-middle div.aboutbox button{
 section.about-bottom{
     padding: 40px 25px;
 }
+
+/*Contact us page*/
+body div.contact-us h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+body div.contact-us{
+    padding-bottom: 25px;
+    border-bottom: 2px dashed black;
+}
+
+div.contact-page{
+    height:100%;
+}
+
+div.contact-page div.contact-form{
+    justify-content: baseline;
+    display: flex;
+}
+
+div.contact-page footer nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
