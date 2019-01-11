@@ -173,7 +173,7 @@ header nav.header-nav a{
     padding-left: 45px;
 }
 /*added image between header and top-content*/
-div.container img.homepage-top, div.about-page img.about-top{
+div.container img.homepage-top, div.about-top-image img{
     width:100%;
 }
 
@@ -238,4 +238,20 @@ section.about-middle .aboutbox{
     width:48%;
     padding:40px 15px 20px 15px;
     border-bottom: 1px dashed black;
+}
+/*finishing the bottom of about page*/
+section.about-middle div.aboutbox img, section.about-middle div.aboutbox p{
+    padding-bottom:20px;
+}
+
+section.about-middle div.aboutbox button{
+    width:100px;
+    height:35px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+section.about-bottom{
+    padding: 40px 25px;
 }
