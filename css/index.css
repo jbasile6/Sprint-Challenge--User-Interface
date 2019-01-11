@@ -65,18 +65,30 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/*1st commit added padding and flex box options to container
+2nd commit added a black background to body, white background to container.
+*/
 .container {
     width: 800px;
     margin: 0 auto;
+   padding:20px 50px 0;
+   justify-content: center;
+   background-color: white;
 }
 
+body{
+    justify-content: flex-end;
+    background-color: black;
+}
+
+/*added padding to this container*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 30px;
 }
 
 .top-content .text-container {
@@ -144,3 +156,131 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* header logo/nav CSS begins here*/
+
+header {
+    display:flex;
+    align-items: baseline;
+    flex-direction: flex-start;
+    padding-bottom: 40px;
+}
+
+header nav.header-nav a{
+    justify-content: space-between;
+    color:black;
+    text-decoration: none;
+    padding-left: 45px;
+}
+/*added image between header and top-content*/
+div.container img.homepage-top, div.about-top-image img{
+    width:100%;
+}
+
+/*2nd commit- adding color to each box*/
+.middle-content .boxes .one{
+    background-color: teal;
+}
+
+.middle-content .boxes .two{
+    background-color: gold;
+}
+
+.middle-content .boxes .three{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four{
+    background-color: coral;
+}
+
+.middle-content .boxes .five {
+    background-color:crimson;
+}
+
+.middle-content .boxes .six{
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .seven{
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .eight{
+    background-color:hotpink;
+}
+
+.middle-content .boxes .nine{
+    background-color:indigo;
+}
+
+.middle-content .boxes .ten{
+    background-color:dodgerblue;
+}
+
+/*end of box color styling, homepage complete*/
+
+section.about-top{
+    margin:25px 15px;
+}
+
+/*about middle content 3rd commit*/
+
+section.about-middle{
+    display:flex;
+    flex-wrap:wrap;
+    border-top:1px dashed black;
+}
+
+section.about-middle .aboutbox{
+    display:flex;
+    flex-direction: column;
+    width:48%;
+    padding:40px 15px 20px 15px;
+    border-bottom: 1px dashed black;
+}
+/*finishing the bottom of about page*/
+section.about-middle div.aboutbox img, section.about-middle div.aboutbox p{
+    padding-bottom:20px;
+}
+
+section.about-middle div.aboutbox button{
+    width:100px;
+    height:35px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+section.about-bottom{
+    padding: 40px 25px;
+}
+
+/*Contact us page*/
+body div.contact-us h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+body div.contact-us{
+    padding-bottom: 25px;
+    border-bottom: 2px dashed black;
+}
+
+div.contact-page{
+    height:100%;
+}
+
+div.contact-page div.contact-form{
+    justify-content: baseline;
+    display: flex;
+}
+
+div.contact-page footer nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
