@@ -65,25 +65,30 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-/* added padding and flex box options to container*/
+/*1st commit added padding and flex box options to container
+2nd commit added a black background to body, white background to container.
+*/
 .container {
     width: 800px;
     margin: 0 auto;
    padding:20px 50px 0;
-   border: 2px solid red;
    justify-content: center;
+   background-color: white;
 }
 
 body{
     justify-content: flex-end;
+    background-color: black;
 }
 
+/*added padding to this container*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 30px;
 }
 
 .top-content .text-container {
@@ -167,3 +172,51 @@ header nav.header-nav a{
     text-decoration: none;
     padding-left: 45px;
 }
+/*added image between header and top-content*/
+div.container img.homepage-top{
+    align-self: center;
+    width:100%;
+}
+
+/*2nd commit- adding color to each box*/
+.middle-content .boxes .one{
+    background-color: teal;
+}
+
+.middle-content .boxes .two{
+    background-color: gold;
+}
+
+.middle-content .boxes .three{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four{
+    background-color: coral;
+}
+
+.middle-content .boxes .five {
+    background-color:crimson;
+}
+
+.middle-content .boxes .six{
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .seven{
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .eight{
+    background-color:hotpink;
+}
+
+.middle-content .boxes .nine{
+    background-color:indigo;
+}
+
+.middle-content .boxes .ten{
+    background-color:dodgerblue;
+}
+
+/*end of box color styling*/
