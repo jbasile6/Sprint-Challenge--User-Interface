@@ -173,8 +173,7 @@ header nav.header-nav a{
     padding-left: 45px;
 }
 /*added image between header and top-content*/
-div.container img.homepage-top{
-    align-self: center;
+div.container img.homepage-top, div.about-page img.about-top{
     width:100%;
 }
 
@@ -219,4 +218,24 @@ div.container img.homepage-top{
     background-color:dodgerblue;
 }
 
-/*end of box color styling*/
+/*end of box color styling, homepage complete*/
+
+section.about-top{
+    margin:25px 15px;
+}
+
+/*about middle content 3rd commit*/
+
+section.about-middle{
+    display:flex;
+    flex-wrap:wrap;
+    border-top:1px dashed black;
+}
+
+section.about-middle .aboutbox{
+    display:flex;
+    flex-direction: column;
+    width:48%;
+    padding:40px 15px 20px 15px;
+    border-bottom: 1px dashed black;
+}
