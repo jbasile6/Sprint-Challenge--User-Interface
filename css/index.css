@@ -65,10 +65,17 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* added padding and flex box options to container*/
 .container {
     width: 800px;
     margin: 0 auto;
+   padding:20px 50px 0;
+   border: 2px solid red;
+   justify-content: center;
+}
+
+body{
+    justify-content: flex-end;
 }
 
 .top-content {
@@ -143,4 +150,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* header logo/nav CSS begins here*/
+
+header {
+    display:flex;
+    align-items: baseline;
+    flex-direction: flex-start;
+    padding-bottom: 40px;
+}
+
+header nav.header-nav a{
+    justify-content: space-between;
+    color:black;
+    text-decoration: none;
+    padding-left: 45px;
 }
